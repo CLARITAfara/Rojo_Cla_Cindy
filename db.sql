@@ -20,7 +20,6 @@ INSERT INTO Previsions_Recettes_Fiscales (nature_impot, montant_lfr_2024, montan
 ('Autres', 1.5, 2.7);
 
 
-
 CREATE TABLE Nature_Impots(
     id_impot SERIAL PRIMARY KEY,
     nom_impot VARCHAR(100) NOT NULL UNIQUE
