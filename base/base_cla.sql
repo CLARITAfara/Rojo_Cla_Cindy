@@ -3,6 +3,10 @@
 -- Pages 6-7: Perspectives économiques et Recettes
 -- ============================================
 
+
+---CREATE DATABASE banque_centrale;
+
+---\c banque_centrale;
 -- Table: Prévisions macroéconomiques (Tableau 1, Page 6)
 CREATE TABLE previsions_macroeconomiques (
     id BIGSERIAL PRIMARY KEY,
