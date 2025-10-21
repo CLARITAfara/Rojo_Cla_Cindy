@@ -21,7 +21,7 @@ public class PerspectiveSectorielle {
 
     private String secteur;
 
-    @Column(name = "taux_croissance", precision = 5, scale = 2)
+    @Column(name = "taux_croissance", precision = 5)
     private Double tauxCroissance;
 
     @Column(columnDefinition = "TEXT")
